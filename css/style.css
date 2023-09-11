@@ -4,7 +4,6 @@ body{
     color: #212121;
     line-height: normal;
     background-color: #FFF;
-    text-decoration: none;
 }
 
 body h2{
@@ -84,6 +83,7 @@ body h2{
 }
 .information .logo .studio{
     color: #FFF;
+    text-decoration: none;
 }
 .logo .studio:hover{color: #2196F3;}
 
@@ -92,15 +92,17 @@ ul{
 }
 
 /* Links*/
-.links a:hover,a:active,a:link{
+.links {
     color:#757575;    
-    text-decoration: underline;
+    
     text-decoration: none;
 }
-a:hover{
+.links:hover{
     color:#2196F3;
 }
-
+a{
+    text-decoration: none;
+}
 .main-navigation a:link,
 .main-navigation a:visited,
 .main-navigation a {
@@ -112,6 +114,7 @@ a:hover{
 .main-navigation a:hover{
      color:#2196F3;
 }
+.main-navigation a:focus{color: #2196F3;}
 
 /*Footer Section*/
 .information{
@@ -140,10 +143,20 @@ a:hover{
     line-height: 162.5%;  
 }
 
-.buttons, button:hover,button:active{
+button:hover{
+    color: #FFF;
+    cursor: pointer;
+    background-color:#2196F3;}
+
+
+ button:active{
     color: #FFF;
     cursor: pointer;
     background-color:#2196F3;
+}
+button:focus{
+    color:#FFF;
+    background-color: #2196F3;
 }
 
 .filter h3{
