@@ -42,7 +42,7 @@ body h2{
     font-weight: 700;
     line-height: 187.5%;
 }
-
+.request:hover{color:#188CE8;}
 .what-we-do img{
     width: 370px;
     height: 294px
@@ -115,6 +115,9 @@ a{
      color:#2196F3;
 }
 .main-navigation a:focus{color: #2196F3;}
+.current{
+    color: #2196F3;
+}
 
 /*Footer Section*/
 .information{
